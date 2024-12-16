@@ -74,7 +74,6 @@ class ScrapeCarrefourProducts extends Command
         ]);
 
         $options->setExperimentalOption('excludeSwitches', ['enable-automation']);
-        $options->setExperimentalOption('useAutomationExtension', false);
 
         return $options;
     }
